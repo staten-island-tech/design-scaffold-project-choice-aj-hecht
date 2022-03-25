@@ -1,7 +1,7 @@
 ---
 title: Inside Ted Bundy's Head
 author: AJ Hecht
-date: 3.24.22
+date: 2022-25-03
 tags: ["post", "featured"]
 image:
 imageAlt:
