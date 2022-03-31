@@ -1,0 +1,129 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --black: #000;
+  --light-sage: #719b7f;
+  --dark-evergreen: #054044;
+  --light-beige: #9e8058;
+  --dark-red: #8a1616;
+  --gray: #252c30;
+
+  /*Intentions */
+  --primary: var(--light-sage);
+  --secondary: var(--dark-evergreen);
+
+  /*Typography */
+  --h1: 7.594rem;
+  --h2: 6rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
+}
+.warm {
+  --primary: var(--light-beige);
+  --secondary: var(--dark-red);
+}
+.cool {
+  --primary: var(--light-sage);
+  --secondary: var(--dark-evergreen);
+}
+.title {
+  background-color: var(--primary);
+}
+.gallery {
+  background-color: var(--secondary);
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10rem;
+  transition: all 0.2s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 28%;
+  height: 50rem;
+  margin: 1.2rem auto;
+  background-color: white;
+  color: black;
+  align-items: center;
+}
+.animal-img {
+  object-fit: contain;
+  height: 30rem;
+  width: 60rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+.buttons {
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
