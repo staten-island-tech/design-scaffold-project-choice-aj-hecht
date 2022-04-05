@@ -1,5 +1,5 @@
 #app {
-  font-family: Playfair Display;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -17,15 +17,17 @@ body,
 
 :root {
   --black: #000;
-  --light-blue: #ececf6;
-  --navy-blue: #222454;
-  --light-beige: #ceb598;
-  --dark-red: #600000;
-  --white: #ffffff;
+  --light-sage: #719b7f;
+  --dark-evergreen: #054044;
+  --light-beige: #9e8058;
+  --dark-red: #8a1616;
+  --gray: #252c30;
 
-  --primary: var(--light-blue);
-  --secondary: var(--navy-blue);
+  /*Intentions */
+  --primary: var(--light-sage);
+  --secondary: var(--dark-evergreen);
 
+  /*Typography */
   --h1: 7.594rem;
   --h2: 6rem;
   --h3: 3.375rem;
@@ -37,8 +39,8 @@ body,
   --secondary: var(--dark-red);
 }
 .cool {
-  --primary: var(--light-blue);
-  --secondary: var(--navy-blue);
+  --primary: var(--light-sage);
+  --secondary: var(--dark-evergreen);
 }
 .title {
   background-color: var(--primary);
@@ -106,7 +108,7 @@ h5 {
   color: black;
   align-items: center;
 }
-.img {
+.animal-img {
   object-fit: contain;
   height: 30rem;
   width: 60rem;
