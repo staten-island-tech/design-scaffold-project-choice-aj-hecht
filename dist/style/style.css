@@ -108,7 +108,7 @@ h5 {
   color: black;
   align-items: center;
 }
-.animal-img {
+.img {
   object-fit: contain;
   height: 30rem;
   width: 60rem;
