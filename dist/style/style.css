@@ -13,6 +13,7 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: #ceb598;
 }
 
 :root {
@@ -97,21 +98,44 @@ h5 {
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 28%;
-  height: 50rem;
-  margin: 1.2rem auto;
-  background-color: white;
-  color: black;
-  align-items: center;
+.header {
+  position: absolute;
 }
-.img {
-  object-fit: contain;
-  height: 30rem;
-  width: 60rem;
+
+.header-buttons {
+  width: 1456px;
+  height: 82px;
+  left: -11px;
+  top: 0px;
+  background-color: #360000;
+}
+
+.header-title {
+  height: 188px;
+  width: 1634px;
+  left: 75px;
+  top: 146px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 160px;
+}
+
+.header-desc {
+  font-size: 2rem;
+}
+
+.header-image {
+  justify-content: center;
+  width: 1083px;
+  height: 434px;
+  left: 163px;
+  top: 388px;
+  mix-blend-mode: difference;
+  opacity: 0.25;
+  filter: blur(4px);
+  border-radius: 41px;
 }
 .cards {
   display: flex;
@@ -126,4 +150,16 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 28%;
+  height: 50rem;
+  margin: 1.2rem auto;
+  background-color: white;
+  color: black;
+  align-items: center;
 }
