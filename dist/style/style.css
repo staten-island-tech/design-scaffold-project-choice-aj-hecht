@@ -107,24 +107,28 @@ h5 {
 }
 
 .header-title {
-  height: 188px;
-  width: 1634px;
-  left: 75px;
-  top: 146px;
+  justify-content: center;
+  height: 15rem;
+  top: 10rem;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 500;
-  font-size: 120px;
-  line-height: 160px;
+  font-size: 12rem;
+  line-height: 30rem;
 }
 
 .header-desc {
-  font-size: 2rem;
+  position: absolute;
+  justify-content: center;
+  height: 10rem;
+  top: 20rem;
+  left: 40rem;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .header-image {
   justify-content: center;
-  width: 1083px;
   height: 434px;
   left: 163px;
   top: 388px;
