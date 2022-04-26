@@ -1,3 +1,11 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 html,
 body,
 * {
@@ -87,45 +95,51 @@ h5 {
 }
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .header-buttons {
-  width: fit-content;
-  length: 10rem;
+  width: 195rem;
+  height: 6rem;
+  left: 3rem;
+
   background-color: #360000;
 }
 
 .header-title {
+  height: 188px;
+  width: 1634px;
+  left: 75px;
+  top: 146px;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 500;
-  font-size: 12rem;
-  line-height: 16rem;
+  font-size: 120px;
+  line-height: 160px;
 }
 
 .header-desc {
- 
   font-size: 2rem;
 }
 
-.img-container {
-  position: relative;
-  top: 38.8rem;
+.header-image {
+  justify-content: center;
+  width: 1083px;
+  height: 434px;
+  left: 163px;
+  top: 388px;
   mix-blend-mode: difference;
   opacity: 0.25;
-  filter: blur(0.4rem);
-  border-radius: 10rem;
+  filter: blur(4px);
+  border-radius: 41px;
 }
-
-/*.cards {
+.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0.5rem auto;
   padding: 0.5rem;
 }
-
 .buttons {
   background-color: var(--secondary);
   display: flex;
