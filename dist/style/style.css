@@ -97,10 +97,12 @@ justify-content: center;
   mix-blend-mode: difference;
   opacity: 0.25;
   filter: blur(0.4rem);
- width: 80rem;
- height: 50rem;
-
+  width: 80rem;
+  height: 50rem;
 }
+
+
+  
 
 
 /*.cards {
