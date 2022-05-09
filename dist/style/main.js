@@ -1,7 +1,7 @@
 import "../styles/style.css";
 
 const DOMSelectors = {
-  display: document.querySelector(".cards"),
+  display: document.querySelector(".buttons"),
 };
 
 document.querySelector(".theme").addEventListener("click", function () {
@@ -14,12 +14,12 @@ document.querySelector(".theme").addEventListener("click", function () {
   }
 });
 
-document.querySelector(".cost").addEventListener("click", function () {
+document.querySelector(".home").addEventListener("click", function () {
   DOMSelectors.display.innerHTML = "";
 });
-document.querySelector(".legality").addEventListener("click", function () {
+document.querySelector(".blog").addEventListener("click", function () {
   DOMSelectors.display.innerHTML = "";
 });
-document.querySelector(".limited").addEventListener("click", function () {
+document.querySelector(".log in").addEventListener("click", function () {
   DOMSelectors.display.innerHTML = "";
 });
