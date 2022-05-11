@@ -61,7 +61,7 @@ body,
   width: 15rem;
   height: 7rem; 
   margin-left: 5rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 4.5rem;
   color: #ffffff;
   font-family: "Playfair Display";
@@ -89,17 +89,16 @@ body,
   width: 20rem;
   height: 7rem; 
   margin-left: 5rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 4.5rem;
   color: #ffffff;
   font-family: "Playfair Display";
   background-color:#360000;
   padding-left: 1rem;
   padding-right: 1rem;
-  border-color: #360000;
+  border-color: #360000
+  
 }
-
-
 
 .header-container{
 justify-content: center;
