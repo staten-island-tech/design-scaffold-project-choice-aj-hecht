@@ -18,10 +18,7 @@ body,
 
    --primary: var(--light-beige);
   --secondary: var(--dark-red);
-  
 
-  /*Typography */
-@ -95,72 +87,62 @@
 }
 
 .warm {
@@ -47,7 +44,7 @@ body,
   width: 15rem;
   height: 7rem; 
   margin-left: 3rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 4.5rem;
   color: #ffffff;
   font-family: "Playfair Display";
