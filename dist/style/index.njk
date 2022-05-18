@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    {% include 'nav.njk' %}
     <nav class="desk">
       <ul class="list" class="desk-nav">
         <li>
-          <a href="/" class="nav-item-desk">Home</a>
+          <a href="/" class="nav-item-desk">HOME</a>
         </li>
         <li>
-          <a href="/blog/" class="nav-item-desk">Blog</a>
+          <a href="/blog/" class="nav-item-desk">BLOGS</a>
         </li>
       </ul>
     </nav>
 
     <header class="header">
       <div class="header-container">
+        <div class="buttons">
+          <a href="/" class="home">HOME</a>
+          <a href="/blogs/" class="blog">BLOGS</a>
+          <button class="theme">SWITCH THEME</button>
+          <a href="https://www.youtube.com" class="log-in">LOG IN</a>
+        </div>
         <div class="header-buttons"></div>
         <h1 class="header-title">Just Another Killer Blog</h1>
         <p class="header-desc">
@@ -32,5 +37,6 @@
         <img src="media/glasses.jpg" alt="glasses" />
       </div>
     </header>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
