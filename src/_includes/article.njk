@@ -3,15 +3,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World Famous Killers</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     {% include 'nav.njk' %}
-    <h1 class="header-title">{{ title }}</h1>
-    <article class="main-article">
-      <img src="{{ image }}" alt="{{ imageAlt }}" class="figure-image" />
-      {{ content | safe }}
-    </article>
+    <h1 class="header-title">Article</h1>
+    <section class="section-container">
+      <ul class="articles">
+        {%- for post in collection.post -%}
+        <article class="article">
+          <div class="article-text">
+            <h3 class="article-title">{{ post.data.title }}</h3>
+            <h4 class="article-author">
+              By {{ post.data.author }}: {{ post.data.date | postDate }}
+            </h4>
+            <a href="{{ post.url }}" class="article-link">Continue Reading</a>
+            <img src="{{ post.data.image }}" alt="" class="img-preview" />
+          </div>
+        </article>
+        {%- endfor -%}
+      </ul>
+    </section>
   </body>
 </html>

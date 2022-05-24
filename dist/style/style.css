@@ -134,7 +134,7 @@ border-radius: 4rem;
 
 /* BLOG PAGE */
 
-.blogpage-buttons {
+.desk-nav {
   background-color: var(--secondary);
   display: flex;
   flex-direction: row;
@@ -143,7 +143,7 @@ border-radius: 4rem;
   font-family: "Playfair Display";
 }
 
-.blogpage-home {
+.nav-home-desk {
   width: 15rem;
   height: 7rem; 
   margin-left: 3rem;
@@ -157,7 +157,7 @@ border-radius: 4rem;
   border-color: #360000;
 }
 
-.blogpage-blog {
+.nav-blogs-desk {
   width: 15rem;
   height: 7rem; 
   margin-left: 5rem;
@@ -171,7 +171,7 @@ border-radius: 4rem;
   border-color: #360000;
 }
 
-.blogpage-theme {
+.nav-theme-desk {
   width: 40rem;
   height: 7rem; 
   margin-left: 85rem;
@@ -185,7 +185,7 @@ border-radius: 4rem;
   border-color: #360000;
 }
 
-.blogpage-log-in {
+.nav-login-desk {
   width: 20rem;
   height: 7rem; 
   margin-left: 5rem;
@@ -200,11 +200,11 @@ border-radius: 4rem;
   
 }
 
-.blogpage-header-container{
+.desk-nav{
 justify-content: center;
 }
 
-.blogpage-header-title {
+.section-title {
   height: 15rem;
   font-family: "Playfair Display";
   font-style: normal;
