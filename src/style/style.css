@@ -216,6 +216,14 @@ justify-content: center;
   margin-left: 40rem;
 
 }
+
+.img-preview {
+ height: 30rem;
+}
+
+.article-text {
+  font-size: 5rem;
+}
   
 
 
