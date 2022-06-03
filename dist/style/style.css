@@ -134,6 +134,14 @@ border-radius: 4rem;
 
 /* BLOG PAGE */
 
+.articles {
+  width: 28%;
+  height: 100rem;
+  margin: 1.2rem auto;
+  color: black;
+  align-items: center;
+}
+
 .desk-nav {
   background-color: var(--secondary);
   display: flex;
@@ -205,6 +213,8 @@ justify-content: center;
 }
 
 .section-title {
+  display: flex;
+  justify-content: center;
   height: 15rem;
   font-family: "Playfair Display";
   font-style: normal;
@@ -212,7 +222,6 @@ justify-content: center;
   font-size: 10rem;
   line-height: 20rem;
   width: 100rem;
-  margin-top: 10rem;
   margin-left: 40rem;
 
 }

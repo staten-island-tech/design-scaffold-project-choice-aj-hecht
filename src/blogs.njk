@@ -6,22 +6,13 @@
     <title>Blogs</title>
     <link rel="stylesheet" href="../style/style.css" />
   </head>
-  <nav class="desk">
-    <ul role="list" class="desk-nav">
-      <li>
-        <a href="/" class="nav-home-desk">HOME</a>
-      </li>
-      <li>
-        <a href="/blogs/" class="nav-blogs-desk">BLOGS</a>
-      </li>
-      <li>
-        <button class="nav-theme-desk">SWITCH THEME</button>
-      </li>
-      <li>
-        <a href="https://www.youtube.com" class="nav-login-desk">LOG IN</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="desk">
+    <div class="desk-nav">
+      <a href="/" class="nav-home-desk">HOME</a>
+      <a href="/blogs/" class="nav-blogs-desk">BLOGS</a>
+      <button class="nav-theme-desk">SWITCH THEME</button>
+      <a href="https://www.youtube.com" class="nav-login-desk">LOG IN</a>
+    </div>
   <body>
     <h1 class="section-title">Famous Killers</h1>
     <section class="section-container">
@@ -30,9 +21,7 @@
         <article class="article">
           <div class="article-text">
             <h3 class="article-title">{{ post.data.title }}</h3>
-            <h4 class="article-author">
-              By {{ post.data.author }}: {( post.data.date )}
-            </h4>
+            <h4 class="article-author">By {{ post.data.author }}</h4>
             <a href="{{ post.url }}" class="article-link">Continue Reading</a>
           </div>
           <img src="{{ post.data.image }}" alt="" class="img-preview" />
