@@ -134,12 +134,30 @@ border-radius: 4rem;
 
 /* BLOG PAGE */
 
-.articles {
+.blogs {
   width: 28%;
   height: 100rem;
   margin: 1.2rem auto;
   color: black;
   align-items: center;
+}
+
+.blog {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+  border-width: 3rem;
+  border-radius: 5rem;
+  background-color: #ceb598;
+  border-color: #000;
+}
+
+.blog-author {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font: 100;
 }
 
 .desk-nav {
@@ -212,7 +230,7 @@ border-radius: 4rem;
 justify-content: center;
 }
 
-.section-title {
+.blog-section-title {
   display: flex;
   justify-content: center;
   height: 15rem;
@@ -226,11 +244,11 @@ justify-content: center;
 
 }
 
-.img-preview {
+.blog-img-preview {
  height: 30rem;
 }
 
-.article-text {
+.blog-text {
   font-size: 5rem;
 }
   
