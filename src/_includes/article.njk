@@ -11,9 +11,19 @@
       <a href="/" class="nav-home-desk">HOME</a>
       <a href="/blogs/" class="nav-blogs-desk">BLOGS</a>
       <button class="nav-theme-desk">SWITCH THEME</button>
-      <a href="https://www.youtube.com" class="nav-login-desk">LOG IN</a>
+      <a href="/" class="nav-login-desk">LOG IN</a>
     </div>
   <body>
-    {{content | safe}}
+    <article class="post">
+
+      <h3 class="post-title">{{title }}</h3>
+      <h4 class="post-author">By {{author}}</h4>
+    
+
+      <img class="post-image" src="{{ image }}" alt="{{ imageAlt }}">
+      
+    </article>
+    
+    {{  content | safe}}
   </body>
 </html>

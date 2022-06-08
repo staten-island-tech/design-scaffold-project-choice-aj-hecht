@@ -13,6 +13,3 @@ document.querySelector(".theme").addEventListener("click", function () {
     document.body.classList.remove("cool");
   }
 });
-document.querySelector("home").addEventListener("click", function () {
-  DOMSelectors.display.innerHTML = "";
-});
